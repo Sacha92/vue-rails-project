@@ -10,12 +10,14 @@ L'endpoint `/hives/:id` permet d'afficher les details d'une Hive.
 
 # Rails app setup
 
-```cd my_api
+```
+cd my_api
 bundle install
 rails db:create
 rails db:migrate
 rails s
 ```
+#### Note: Il faudra avoir au préalable une db postgresql sur la machine
 
 # Vue app setup
 ```
