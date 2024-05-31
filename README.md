@@ -10,18 +10,19 @@ L'endpoint `/hives/:id` permet d'afficher les details d'une Hive.
 
 # Rails app setup
 
-cd my_api
+```cd my_api
 bundle install
 rails db:create
 rails db:migrate
 rails s
+```
 
 # Vue app setup
-
+```
 cd vue-project
 npm run install
 npm run dev
-
+```
 # Choix d'implémentation
 
 J'ai décidé d'implémenter les deux applications de manière découplées, pour ne pas ajouter de contraintes de dev sur le long terme. 
